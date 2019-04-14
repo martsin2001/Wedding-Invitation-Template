@@ -44,6 +44,11 @@ body, html {
     padding: 8px 16px;
     background: white;
     opacity: 0.75;
+    z-index: 999;
+}
+
+.header:hover {
+    opacity: 1;
 }
 
 .tab-of-header {
@@ -52,7 +57,6 @@ body, html {
     text-align: center;
     text-decoration: none;
     color: black;
-    
     box-sizing: inherit;
     font-family: "Raleway", sans-serif;
 }
@@ -64,4 +68,237 @@ body, html {
 .tab-of-header:nth-child(4):hover {
     color: white;
     background: black;
+}
+
+.main-info {
+    min-height: 100%;
+    width: calc(100% - 108px);
+    background-color: #ffdddd;
+    filter: grayscale(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 900;
+    padding: 64px 54px;
+}
+
+
+img {
+    width: 100%;
+    margin: 32px 0px;
+}
+
+.title-of-img {
+    margin: 10px 0px;
+    display: flex;
+    color: #757575;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 3;
+}
+
+.info-about-foto {
+    line-height: 2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.wrapper-of-button {
+    width: 100%;
+    margin: 15px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.d {
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    padding: 12px 24px;
+    font-weight: 100;
+    font-size: 18px;
+    box-sizing: inherit;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 4px;
+    line-height: 2;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+}
+
+.info-about-flower{
+    min-height: 100%;
+    background-image: url('./images/foto-of-flower.jpg');
+    width: 100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: inherit;
+}
+
+.text-of-flower {
+    color:  #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: inherit;
+}
+
+.text-about-invitation {
+    font-size: 64px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.text-of-course{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+    
+}
+
+.info-about-hall {
+    color: #000;
+    background-color: #ffdddd;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+    filter: grayscale(50%); 
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 95%;
+    margin: 64px 0;
+    border-radius: 8px;
+    filter: grayscale(50%); 
+}
+
+.text-of-title {
+    color: #757575;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.info-abut-when-where {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info-abut-when-where>div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+h2 {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+p {
+    line-height: 2;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.info-of-hope {
+    width: 100%;
+    color: #000;
+    background-color: #ffdddd;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center;
+    letter-spacing: 4px;
+    padding: 0.01em 16px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: "Raleway", sans-serif;
+}
+
+.info-of-button {
+    font-size: 24px;
+    line-height: 2;
+    box-sizing: inherit;
+    color: #000;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: "Raleway", sans-serif;
+}
+
+.button-RSVP {
+    padding: 8px 60px;
+    color: #fff;
+    background-color: #f44336;
+    opacity: 0.60;
+    border-radius: 4px;
+    border: none;
+    font: inherit;
+    margin: 0;
+    outline: none;
+}
+
+.button-RSVP:hover {
+    background: rgb(177, 177, 177);
+    color: #000;
+}
+
+.info-of-Powered {
+    color: #fff;
+    background-color: #000;
+    margin-bottom: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    display: block;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 900px;
 }
